@@ -1,0 +1,8 @@
+{
+  "id": "f1-clear-dated-commitment",
+  "kind": "EMAIL",
+  "occurredAt": "2026-09-23T10:00:00",
+  "timezone": "Asia/Kolkata",
+  "participants": ["ashu@devbehindyou.example", "priya@webosmotic.example"],
+  "body": "Hi Priya, confirming — I'll get the revised homepage mockups over to you by this Friday. Also attaching the sitemap draft for reference. Thanks, Ashu"
+}

@@ -1,0 +1,14 @@
+{
+  "fixtureId": "f5-client-owed-commitment",
+  "commitments": [
+    {
+      "id": "f5-c1",
+      "title": "Send the final logo files",
+      "owner": "Meera",
+      "promisedTo": "Ashu",
+      "clientHint": "Ohh My Brand",
+      "rawDatePhrase": "Monday",
+      "dateExpectation": { "kind": "resolved", "dueAtUtc": "2026-09-28T11:30:00.000Z" }
+    }
+  ]
+}

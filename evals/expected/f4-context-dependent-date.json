@@ -1,0 +1,14 @@
+{
+  "fixtureId": "f4-context-dependent-date",
+  "commitments": [
+    {
+      "id": "f4-c1",
+      "title": "Circle back with Rahul about the invoice",
+      "owner": "Ashu",
+      "promisedTo": "Rahul",
+      "clientHint": "Ariel Software Solutions",
+      "rawDatePhrase": "once he's back from vacation",
+      "dateExpectation": { "kind": "needs_context" }
+    }
+  ]
+}

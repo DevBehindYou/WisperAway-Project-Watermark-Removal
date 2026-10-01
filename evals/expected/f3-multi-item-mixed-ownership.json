@@ -1,0 +1,27 @@
+{
+  "fixtureId": "f3-multi-item-mixed-ownership",
+  "commitments": [
+    {
+      "id": "f3-c-a",
+      "title": "Deliver the API integration guide",
+      "owner": "Ashu",
+      "promisedTo": "Jidoka Technologies",
+      "rawDatePhrase": "end of week",
+      "dateExpectation": { "kind": "resolved", "dueAtUtc": "2026-09-25T11:30:00.000Z" }
+    },
+    {
+      "id": "f3-c-b",
+      "title": "Send the staging server credentials",
+      "owner": "Devendra",
+      "promisedTo": "Ashu",
+      "clientHint": "Jidoka Technologies",
+      "rawDatePhrase": "Monday",
+      "dateExpectation": { "kind": "resolved", "dueAtUtc": "2026-09-28T11:30:00.000Z" }
+    }
+  ],
+  "notExpected": [
+    {
+      "note": "'The design review call will happen sometime after the client demo' has no single clear owner ('we agreed') and no fixed date — per spec §26 a commitment needs a clear deliverable AND an identifiable owner. A correct extractor should not produce a candidate for this."
+    }
+  ]
+}

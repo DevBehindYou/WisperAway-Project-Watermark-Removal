@@ -1,0 +1,8 @@
+{
+  "id": "f4-context-dependent-date",
+  "kind": "MANUAL_NOTE",
+  "occurredAt": "2026-09-25T09:00:00",
+  "timezone": "Asia/Kolkata",
+  "participants": ["ashu@devbehindyou.example"],
+  "body": "Quick note to self: need to circle back with Rahul (Ariel Software Solutions) about the invoice once he's back from vacation."
+}

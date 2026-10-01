@@ -1,0 +1,8 @@
+{
+  "id": "f3-multi-item-mixed-ownership",
+  "kind": "MEETING_TRANSCRIPT",
+  "occurredAt": "2026-09-22T14:00:00",
+  "timezone": "Asia/Kolkata",
+  "participants": ["ashu@devbehindyou.example", "devendra@jidoka.example"],
+  "body": "Meeting notes — Jidoka Technologies sync, Sept 22: Discussed Q4 roadmap. Action items: (1) Ashu to deliver the API integration guide by end of week. (2) Devendra (Jidoka) to send over the staging server credentials by Monday. (3) We agreed the design review call will happen sometime after the client demo, exact time TBD."
+}

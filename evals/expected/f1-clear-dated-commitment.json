@@ -1,0 +1,14 @@
+{
+  "fixtureId": "f1-clear-dated-commitment",
+  "commitments": [
+    {
+      "id": "f1-c1",
+      "title": "Send revised homepage mockups",
+      "owner": "Ashu",
+      "promisedTo": "Priya",
+      "clientHint": "WebOsmotic",
+      "rawDatePhrase": "this Friday",
+      "dateExpectation": { "kind": "resolved", "dueAtUtc": "2026-09-25T11:30:00.000Z" }
+    }
+  ]
+}

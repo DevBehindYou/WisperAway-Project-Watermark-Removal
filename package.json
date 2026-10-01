@@ -1,0 +1,12 @@
+{
+  "name": "keystone",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*",
+    "evals/runner"
+  ],
+  "engines": { "node": ">=22" }
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+*.log
+evals/reports/*.json
+infrastructure/backups/archive/*
+infrastructure/backups/second-location-test/
+!infrastructure/backups/archive/.gitkeep
+

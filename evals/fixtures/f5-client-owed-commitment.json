@@ -1,0 +1,8 @@
+{
+  "id": "f5-client-owed-commitment",
+  "kind": "WHATSAPP_IMPORT",
+  "occurredAt": "2026-09-26T11:15:00",
+  "timezone": "Asia/Kolkata",
+  "participants": ["meera@ohhmybrand.example", "ashu@devbehindyou.example"],
+  "body": "Meera (Ohh My Brand): I'll get you the final logo files by Monday, sorry for the delay on our end!"
+}

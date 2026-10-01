@@ -1,0 +1,8 @@
+{
+  "id": "f2-not-a-commitment",
+  "kind": "SHARED_TEXT",
+  "occurredAt": "2026-09-24T15:20:00",
+  "timezone": "Asia/Kolkata",
+  "participants": ["ashu@devbehindyou.example"],
+  "body": "We should probably improve that onboarding flow someday, it's been bugging me."
+}

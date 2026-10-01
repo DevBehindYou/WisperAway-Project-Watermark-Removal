@@ -1,0 +1,93 @@
+/**
+ * Keystone design tokens — see UI_UX_DESIGN_SYSTEM.md §2 for the full
+ * rationale. These are the reference seeds and a light-mode surface ramp
+ * derived from them by hand (not run through the M3 HCT tool — a real
+ * design pass should regenerate this properly; see the design doc's
+ * note on that).
+ */
+
+:root {
+  /* Brand seeds */
+  --color-primary: #2e5e60; /* Quarry Teal */
+  --color-primary-container: #d6e9e9;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #0e2c2d;
+
+  --color-secondary: #7a7267; /* Mortar */
+  --color-secondary-container: #ece6de;
+
+  --color-tertiary: #c08a2e; /* Ember */
+  --color-tertiary-container: #f7e6c8;
+  --color-on-tertiary-container: #4a3400;
+
+  --color-error: #a6472f; /* Rust */
+  --color-error-container: #f5d9d1;
+  --color-on-error-container: #4a1a0e;
+
+  /* Extended semantic roles, mapped 1:1 to commitment states */
+  --color-blocked: #6b5b73; /* Slate Violet */
+  --color-blocked-container: #e9e1ec;
+  --color-done: #4f7a5b; /* Moss */
+  --color-done-container: #dcece0;
+
+  /* Warm neutral surfaces — never stark cold grey */
+  --color-surface-dim: #e8e2d9;
+  --color-surface: #f6f2ea;
+  --color-surface-bright: #fff8f1;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #faf6ee;
+  --color-surface-container: #f1ece2;
+  --color-surface-container-high: #ebe5da;
+  --color-surface-container-highest: #e5ded1;
+  --color-outline: #7d7669;
+  --color-outline-variant: #cdc5b7;
+  --color-on-surface: #1e1c17;
+  --color-on-surface-variant: #4b463c;
+
+  /* Type */
+  --font-display: "Fraunces", serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+
+  --type-headline-small: 600 24px/32px var(--font-display);
+  --type-title-large: 500 22px/28px var(--font-body);
+  --type-title-medium: 500 16px/24px var(--font-body);
+  --type-body-large: 400 16px/24px var(--font-body);
+  --type-body-medium: 400 14px/20px var(--font-body);
+  --type-label-large: 500 14px/20px var(--font-body);
+  --type-label-medium: 500 12px/16px var(--font-body);
+
+  /* Shape — see design doc §2.3: rounding loosens for uncertainty,
+     tightens for confirmation. These are the two ends of that rule. */
+  --shape-settled: 4px;
+  --shape-default: 12px;
+  --shape-provisional: 20px;
+
+  /* Spacing — 8dp grid */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+
+  /* Motion */
+  --motion-settle: 220ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  font: var(--type-body-large);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
